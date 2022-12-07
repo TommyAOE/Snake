@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snake" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Snake" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Snake" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_gfx" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_mixer" />
+			<Add library="SDL2_ttf" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="Dok.pdf" />
+		<Unit filename="FFFFORWA.TTF" />
+		<Unit filename="Multi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Multi.h" />
+		<Unit filename="SDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDL.h" />
+		<Unit filename="Single.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Single.h" />
+		<Unit filename="Snake.cbp" />
+		<Unit filename="Snake.depend" />
+		<Unit filename="Snake.layout" />
+		<Unit filename="UI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UI.h" />
+		<Unit filename="debugmalloc.h" />
+		<Unit filename="kigyo1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kigyo1.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mozgas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mozgas.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
